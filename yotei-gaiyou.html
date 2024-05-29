@@ -1,0 +1,125 @@
+<html lang="ja"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>イベントお知らせ</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #282c35;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            color: #fff;
+        }
+
+        .event-container {
+            width: 100%;
+            max-width: 600px;
+            
+            
+            background-color: #373b47;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #61dafb;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .info-section {
+            margin-top: 20px;
+            border-top: 1px solid #464b58;
+            padding-top: 20px;
+        }
+
+        h2 {
+            color: #61dafb;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .cancel-button {
+            background-color: #e44d26;
+            color: #fff;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .cancel-button:hover {
+            background-color: #d4381b;
+        }
+    </style>
+</head>
+<body>
+    <div class="event-container">
+        <h1>素敵なイベント</h1>
+
+        <div class="info-section">
+            <h2>行き先</h2>
+            <p>東京タワー、浅草寺、新宿御苑</p>
+        </div>
+
+        <div class="info-section">
+            <h2>内容</h2>
+            <p>長文のイベントの内容がここに入ります。</p>
+        </div>
+
+        <div class="info-section">
+            <h2>日時</h2>
+            <p>2023年01月01日 10:00 - 18:00</p>
+        </div>
+
+ <div class="info-section">
+            <h2>参加登録期間</h2>
+            <p>---</p>
+
+            <button class="cancel-button" onclick="window.location.href='参加登録期間外.html'">参加登録</button>
+<br>※「参加予定者」に反映するまでにしばらく時間を要する場合がございます。</br>
+        </div>
+
+        <div class="info-section">
+            <h2>キャンセル可能日時</h2>
+            <p>当日参加可能</p>
+
+            <button class="cancel-button" onclick="window.location.href='キャンセル不可１.html'">キャンセルする</button>
+        </div>
+
+        <div class="info-section">
+            <h2>持ち物</h2>
+            <p>快適な服装、飲み物、カメラ</p>
+        </div>
+
+        <div class="info-section">
+            <h2>必要資金</h2>
+            <p>参加費用: 5000円</p>
+        </div>
+
+        <div class="info-section">
+            <h2>参加予定者</h2>
+            <p>参加者1、参加者2、参加者3</p>
+        </div>
+
+        <div class="info-section">
+            <h2>備考</h2>
+            <p><b>宿泊なし</b>、<b>日帰り</b></p>
+	　　 <p>※<b>当日、10分以上の遅刻はキャンセルとして扱います。</b></p>
+        </div>
+    </div>
+
+
+</body></html>
